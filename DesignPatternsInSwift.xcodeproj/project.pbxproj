@@ -11,6 +11,7 @@
 		DAC3F9E1291AD1B10077F593 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC3F9E0291AD1B10077F593 /* ContentView.swift */; };
 		DAC3F9E3291AD1B60077F593 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAC3F9E2291AD1B60077F593 /* Assets.xcassets */; };
 		DAC3F9E6291AD1B60077F593 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAC3F9E5291AD1B60077F593 /* Preview Assets.xcassets */; };
+		DAC3F9F0291AD2300077F593 /* Singleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC3F9EF291AD2300077F593 /* Singleton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		DAC3F9E0291AD1B10077F593 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		DAC3F9E2291AD1B60077F593 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DAC3F9E5291AD1B60077F593 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DAC3F9EF291AD2300077F593 /* Singleton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Singleton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +37,7 @@
 		DAC3F9D2291AD1B00077F593 = {
 			isa = PBXGroup;
 			children = (
+				DAC3F9EC291AD1C50077F593 /* DisignPatterns */,
 				DAC3F9DD291AD1B00077F593 /* DesignPatternsInSwift */,
 				DAC3F9DC291AD1B00077F593 /* Products */,
 			);
@@ -65,6 +68,30 @@
 				DAC3F9E5291AD1B60077F593 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DAC3F9EC291AD1C50077F593 /* DisignPatterns */ = {
+			isa = PBXGroup;
+			children = (
+				DAC3F9ED291AD1FA0077F593 /* CreationalPatterns */,
+			);
+			path = DisignPatterns;
+			sourceTree = "<group>";
+		};
+		DAC3F9ED291AD1FA0077F593 /* CreationalPatterns */ = {
+			isa = PBXGroup;
+			children = (
+				DAC3F9EE291AD2190077F593 /* Singleton */,
+			);
+			path = CreationalPatterns;
+			sourceTree = "<group>";
+		};
+		DAC3F9EE291AD2190077F593 /* Singleton */ = {
+			isa = PBXGroup;
+			children = (
+				DAC3F9EF291AD2300077F593 /* Singleton.swift */,
+			);
+			path = Singleton;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +165,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DAC3F9E1291AD1B10077F593 /* ContentView.swift in Sources */,
+				DAC3F9F0291AD2300077F593 /* Singleton.swift in Sources */,
 				DAC3F9DF291AD1B10077F593 /* DesignPatternsInSwiftApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
